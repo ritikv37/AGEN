@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.ser-text{
+    background-color: #e6e6e6;
+    padding-inline:8rem;
+    height: 10rem;
+}
+.ser-textt p{
+    font-size: 30px;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    .ser-text{
+        height: auto;
+    }
+    .ser-textt p{
+        font-size: 20px;
+    }
+}

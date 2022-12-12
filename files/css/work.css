@@ -1,0 +1,86 @@
+
+
+.other-btns .flex{
+    gap: 15px;
+}
+.other-btns .flex li a{
+    gap: 5px;
+    font-size: 12px;
+    background-color: #ffc740;
+    width: 40px;
+    height: 20px;
+    padding:5px 10px;
+    color: black;
+    transition: .5s all;
+}
+.other-btns .flex li a:hover{
+    background-color: #e6e6e6;
+    color: black;
+}
+.other-btns .flex li a:focus{
+    background-color: black;
+    color: white;
+}
+
+.tran{
+    position: relative;
+    
+}
+.tran img{
+    
+    width: 300px;
+    height: 200px;
+    
+}
+.work-cont{
+    padding: 10px;
+}
+.tran-img i{
+    border: 1px solid #ffc740;
+    padding: 10px;
+    border-radius: 50%;
+    color: #ffc740;
+}
+.tran-img{
+    display: none;
+    transition: .5s all;
+}
+.tran:hover .tran-img{
+    position: absolute;
+    display: flex;
+    width: 300px;
+    height: 200px;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: rgba(0, 0, 0, 0.382);
+}
+.tran h3{
+    font-size: 20px;
+    margin-top: 5px;
+}
+.tran h4{
+    font-size: 15px;
+}
+
+.works-textt {
+    padding:20px 8rem;
+}
+.other-btns{
+    padding-inline: 6rem;
+}
+.work-grid{
+    padding-inline: 3rem;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+    .works-textt{
+        padding: 20px !important;
+    }
+    .other-btns{
+        padding-inline: 0px!important;
+    }
+    .work-grid{
+        padding-inline: 0px!important;
+    }
+}
